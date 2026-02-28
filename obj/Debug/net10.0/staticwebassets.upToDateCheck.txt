@@ -1,0 +1,249 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\about-us.html
+wwwroot\blog-details.html
+wwwroot\blog.html
+wwwroot\contact.html
+wwwroot\css\bootstrap.min.css
+wwwroot\css\elegant-icons.css
+wwwroot\css\font-awesome.min.css
+wwwroot\css\magnific-popup.css
+wwwroot\css\owl.carousel.min.css
+wwwroot\css\slicknav.min.css
+wwwroot\css\style.css
+wwwroot\fonts\ElegantIcons.eot
+wwwroot\fonts\ElegantIcons.svg
+wwwroot\fonts\ElegantIcons.ttf
+wwwroot\fonts\ElegantIcons.woff
+wwwroot\fonts\fontawesome-webfont.eot
+wwwroot\fonts\fontawesome-webfont.svg
+wwwroot\fonts\fontawesome-webfont.ttf
+wwwroot\fonts\fontawesome-webfont.woff
+wwwroot\fonts\fontawesome-webfont.woff2
+wwwroot\fonts\FontAwesome.otf
+wwwroot\img\about-us.jpg
+wwwroot\img\blog\blog-1.jpg
+wwwroot\img\blog\blog-2.jpg
+wwwroot\img\blog\blog-3.jpg
+wwwroot\img\blog\blog-4.jpg
+wwwroot\img\blog\blog-5.jpg
+wwwroot\img\blog\blog-6.jpg
+wwwroot\img\blog\blog-7.jpg
+wwwroot\img\blog\blog-8.jpg
+wwwroot\img\blog\blog-9.jpg
+wwwroot\img\blog\blog-details\blog-details-hero.jpg
+wwwroot\img\blog\blog-details\blog-more-1.jpg
+wwwroot\img\blog\blog-details\blog-more-2.jpg
+wwwroot\img\blog\latest-b\latest-1.jpg
+wwwroot\img\blog\latest-b\latest-2.jpg
+wwwroot\img\blog\latest-b\latest-3.jpg
+wwwroot\img\contact-content-bg.jpg
+wwwroot\img\footer-logo.png
+wwwroot\img\h-about.jpg
+wwwroot\img\hero-right.png
+wwwroot\img\hero.jpg
+wwwroot\img\logo.png
+wwwroot\img\newslatter-bg.jpg
+wwwroot\img\partner-logo\logo-1.png
+wwwroot\img\partner-logo\logo-2.png
+wwwroot\img\partner-logo\logo-3.png
+wwwroot\img\partner-logo\logo-4.png
+wwwroot\img\partner-logo\logo-5.png
+wwwroot\img\partner-logo\logo-6.png
+wwwroot\img\pricing-bg.jpg
+wwwroot\img\quote-left.png
+wwwroot\img\quote.png
+wwwroot\img\related-post\related-post-1.jpg
+wwwroot\img\related-post\related-post-2.jpg
+wwwroot\img\related-post\related-post-3.jpg
+wwwroot\img\schedule\schedule-1.jpg
+wwwroot\img\schedule\schedule-2.jpg
+wwwroot\img\schedule\schedule-3.jpg
+wwwroot\img\schedule\schedule-4.jpg
+wwwroot\img\speakers\speaker-1.jpg
+wwwroot\img\speakers\speaker-2.jpg
+wwwroot\img\speakers\speaker-3.jpg
+wwwroot\img\speakers\speaker-4.jpg
+wwwroot\img\speakers\speaker-5.jpg
+wwwroot\img\speakers\speaker-6.jpg
+wwwroot\img\team-member\member-1.jpg
+wwwroot\img\team-member\member-10.jpg
+wwwroot\img\team-member\member-2.jpg
+wwwroot\img\team-member\member-3.jpg
+wwwroot\img\team-member\member-4.jpg
+wwwroot\img\team-member\member-5.jpg
+wwwroot\img\team-member\member-6.jpg
+wwwroot\img\team-member\member-7.jpg
+wwwroot\img\team-member\member-8.jpg
+wwwroot\img\team-member\member-9.jpg
+wwwroot\img\testimonial\testimonial-1.jpg
+wwwroot\img\testimonial\testimonial-2.jpg
+wwwroot\index.html
+wwwroot\js\bootstrap.min.js
+wwwroot\js\jquery-3.3.1.min.js
+wwwroot\js\jquery.countdown.min.js
+wwwroot\js\jquery.magnific-popup.min.js
+wwwroot\js\jquery.slicknav.js
+wwwroot\js\main.js
+wwwroot\js\owl.carousel.min.js
+wwwroot\main.html
+wwwroot\readme.txt
+wwwroot\schedule.html
+wwwroot\Source\bootstrap-4.4.1-dist.zip
+wwwroot\Source\elegant_font.zip
+wwwroot\Source\font-awesome-4.7.0.zip
+wwwroot\Source\jquery-circle-progress-1.2.2.zip
+wwwroot\Source\Magnific-Popup-master.zip
+wwwroot\Source\OwlCarousel2-2.3.4.zip
+wwwroot\Source\sass.zip
+wwwroot\Source\SlickNav-master.zip
+wwwroot\speaker.html
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery\LICENSE.txt
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery\dist\jquery.min.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery\dist\jquery.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery\dist\jquery.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery-validation\LICENSE.md
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\js\site.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\favicon.ico
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\css\site.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\about-us.html
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\blog-details.html
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\blog.html
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\contact.html
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\css\bootstrap.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\css\elegant-icons.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\css\font-awesome.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\css\magnific-popup.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\css\owl.carousel.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\css\slicknav.min.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\css\style.css
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\fonts\ElegantIcons.svg
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\fonts\fontawesome-webfont.svg
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\fonts\FontAwesome.otf
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\index.html
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\js\bootstrap.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\js\jquery-3.3.1.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\js\jquery.countdown.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\js\jquery.magnific-popup.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\js\jquery.slicknav.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\js\main.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\js\owl.carousel.min.js
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\main.html
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\readme.txt
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\schedule.html
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\wwwroot\speaker.html
