@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using StudentManagement.Models;
 
@@ -22,24 +23,33 @@ namespace StudentManagement.Controllers
 
         // Create a new Student
         [HttpGet]
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
-            ViewBag.Department = await _context.Departments.ToListAsync();
+            ViewBag.Department = _context.Departments.Select(d => new SelectListItem
+                                        {
+                                            Value = d.DepartmentId.ToString(),
+                                            Text = d.DepartmentName 
+                                        }).ToList();
 
             return View();
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Student student)
         {
             if (ModelState.IsValid)
             {
                 _context.Students.Add(student);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.Department = await _context.Departments.ToListAsync();
-            return View();
+            ViewBag.Department = _context.Departments.Select(d => new SelectListItem
+                                        {
+                                            Value = d.DepartmentId.ToString(),
+                                            Text = d.DepartmentName
+                                        }).ToList();
+            return View(student);
         }
     }
 }

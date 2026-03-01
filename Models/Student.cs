@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace StudentManagement.Models;
 
@@ -22,8 +23,9 @@ public partial class Student
 
     public string? Address { get; set; }
 
+    [Required(ErrorMessage = "Please select department")]
     public int DepartmentId { get; set; }
-
+    [ValidateNever]
     public virtual Department Department { get; set; } = null!;
 
     public virtual ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();

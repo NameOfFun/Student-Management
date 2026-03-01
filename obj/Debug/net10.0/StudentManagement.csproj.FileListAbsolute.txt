@@ -249,3 +249,4 @@ D:\Ki9\Job App Project\StudentManagement\StudentManagement\obj\Debug\net10.0\com
 D:\Ki9\Job App Project\StudentManagement\StudentManagement\obj\Debug\net10.0\compressed\l5dp9ojx2d-{0}-7dvirsxg20-7dvirsxg20.gz
 D:\Ki9\Job App Project\StudentManagement\StudentManagement\obj\Debug\net10.0\compressed\qt91x05b6a-{0}-0llgzs70aj-0llgzs70aj.gz
 D:\Ki9\Job App Project\StudentManagement\StudentManagement\obj\Debug\net10.0\compressed\g1sdxoe82m-{0}-e5wmnhsgr7-e5wmnhsgr7.gz
+D:\Ki9\Job App Project\StudentManagement\StudentManagement\obj\Debug\net10.0\StudentManagement.sourcelink.json
