@@ -19,6 +19,7 @@
             <th>Phone</th>
             <th>Address</th>
             <th>Department Name</th>
+            <th>Action</th>
         </tr>
     </thead>
 
@@ -33,6 +34,9 @@
                 <td>@item.Phone</td>
                 <td>@item.Address</td>
                 <td>@item.Department?.DepartmentName</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.StudentId" class="btn btn-sm btn-warning">Edit</a>
+                </td>
             </tr>
         }
     </tbody>
