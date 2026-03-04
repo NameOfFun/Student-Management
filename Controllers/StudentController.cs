@@ -14,11 +14,25 @@ namespace StudentManagement.Controllers
         }
 
         // Show all Students
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string search, int page = 1)
         {
-            var students = await _context.Students.Include(d => d.Department).ToListAsync();
+            int pageSize = 1;
 
-            return View(students);
+            var query = _context.Students.Include(d => d.Department).AsQueryable();
+            if (!string.IsNullOrEmpty(search))
+            {
+                query = query.Where(s => s.FullName.Contains(search) || s.Email.Contains(search) || s.Phone.Contains(search) || s.Address.Contains(search));
+            }
+
+            int totalItem = await query.CountAsync();
+
+            var students = await query.OrderBy(s => s.StudentId).Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
+
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalItems = (int)Math.Ceiling((double)totalItem / pageSize);
+            ViewBag.Search = search;
+
+            return View(students);  
         }
 
         // Create a new Student
@@ -83,7 +97,7 @@ namespace StudentManagement.Controllers
                 if (existingStudent == null)
                     return NotFound();
 
-                // update fields manually
+                
                 existingStudent.FullName = student.FullName;
                 existingStudent.DepartmentId = student.DepartmentId;
                 existingStudent.Email = student.Email;
@@ -101,6 +115,16 @@ namespace StudentManagement.Controllers
                 Text = d.DepartmentName,
                 Selected = d.DepartmentId == student.DepartmentId
             }).ToList();
+            return View(student);
+        }
+
+        // Detail a Student
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var student = await _context.Students.Include(s => s.Department).FirstOrDefaultAsync(s => s.StudentId == id);
+            if (student == null)
+                return NotFound();
             return View(student);
         }
 

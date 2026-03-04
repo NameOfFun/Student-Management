@@ -1,0 +1,23 @@
+﻿@model StudentManagement.Models.Student
+
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+<h2> Details Student Infomation</h2>
+
+<div>
+    <input type="hidden" asp-for="StudentId"/>
+
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" readonly />
+    </div>
+
+    <div>
+        <label asp-for="DepartmentId"/>
+        <input asp-for="Department.DepartmentName" class="form-control" readonly />
+    </div>
+
+    <a asp-action="Index" class="btn btn-sm btn-primary">Back To List</a>
+</div>
