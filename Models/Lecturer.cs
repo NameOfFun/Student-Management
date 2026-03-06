@@ -16,4 +16,6 @@ public partial class Lecturer
     public virtual ICollection<Class> Classes { get; set; } = new List<Class>();
 
     public virtual Department Department { get; set; } = null!;
+
+    public virtual ICollection<UserAccount> UserAccounts { get; set; } = new List<UserAccount>();
 }

@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using StudentManagement.Models;
 
 namespace StudentManagement.Controllers
 {
+    [Authorize]
     public class StudentController : Controller
     {
         private StudentManagementContext _context;
@@ -37,6 +39,7 @@ namespace StudentManagement.Controllers
 
         // Create a new Student
         [HttpGet]
+        [Authorize(Roles = "Admin, Lecturer")]
         public IActionResult Create()
         {
             ViewBag.Department = _context.Departments.Select(d => new SelectListItem
@@ -68,6 +71,7 @@ namespace StudentManagement.Controllers
 
         //Edit a Student
         [HttpGet]
+        [Authorize(Roles = "Admin, Lecturer")]
         public async Task<IActionResult> Edit(int id)
         {
             var student = await _context.Students.FirstOrDefaultAsync(s => s.StudentId == id);
@@ -120,6 +124,7 @@ namespace StudentManagement.Controllers
 
         // Detail a Student
         [HttpGet]
+
         public async Task<IActionResult> Details(int id)
         {
             var student = await _context.Students.Include(s => s.Department).FirstOrDefaultAsync(s => s.StudentId == id);
@@ -130,6 +135,7 @@ namespace StudentManagement.Controllers
 
         // Delete a Student
         [HttpGet]
+        [Authorize(Roles = "Admin, Lecturer")]
         public async Task<IActionResult> Delete(int id)
         {
             var student = await _context.Students.FirstOrDefaultAsync(s => s.StudentId == id);

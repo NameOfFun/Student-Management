@@ -4,10 +4,12 @@
 }
 
 <h2> Student List </h2>
-
-<p>
-    <a asp-action="Create" asp-controller="Student" class="btn btn-primary">Create New Student</a>
-</p>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create" asp-controller="Student" class="btn btn-primary">Create New Student</a>
+    </p>
+}
 
 <form method="get" asp-action="Index">
     <div class="input-group mb-3">
@@ -15,6 +17,7 @@
         <button type="submit" class="btn btn-primary"> Search </button>
     </div>
 </form>
+
 
 <table class="table table-bordered">
     <thead>
@@ -42,9 +45,13 @@
                 <td>@item.Address</td>
                 <td>@item.Department?.DepartmentName</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.StudentId" class="btn btn-sm btn-warning">Edit</a>
                     <a asp-action="Details" asp-route-id="@item.StudentId" class="btn btn-sm btn-primary">Details</a>
-                    <a asp-action="Delete" asp-route-id="@item.StudentId" class="btn btn-sm btn-danger">Delete</a>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.StudentId" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.StudentId" class="btn btn-sm btn-danger">Delete</a>
+                    }
                 </td>
             </tr>
         }
