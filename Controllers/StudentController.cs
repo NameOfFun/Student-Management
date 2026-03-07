@@ -34,7 +34,7 @@ namespace StudentManagement.Controllers
             ViewBag.TotalItems = (int)Math.Ceiling((double)totalItem / pageSize);
             ViewBag.Search = search;
 
-            return View(students);  
+            return View(students);
         }
 
         // Create a new Student
@@ -43,10 +43,10 @@ namespace StudentManagement.Controllers
         public IActionResult Create()
         {
             ViewBag.Department = _context.Departments.Select(d => new SelectListItem
-                                        {
-                                            Value = d.DepartmentId.ToString(),
-                                            Text = d.DepartmentName 
-                                        }).ToList();
+            {
+                Value = d.DepartmentId.ToString(),
+                Text = d.DepartmentName
+            }).ToList();
 
             return View();
         }
@@ -62,10 +62,10 @@ namespace StudentManagement.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewBag.Department = _context.Departments.Select(d => new SelectListItem
-                                        {
-                                            Value = d.DepartmentId.ToString(),
-                                            Text = d.DepartmentName
-                                        }).ToList();
+            {
+                Value = d.DepartmentId.ToString(),
+                Text = d.DepartmentName
+            }).ToList();
             return View(student);
         }
 
@@ -76,7 +76,7 @@ namespace StudentManagement.Controllers
         {
             var student = await _context.Students.FirstOrDefaultAsync(s => s.StudentId == id);
 
-            if(student == null)
+            if (student == null)
             {
                 return NotFound();
             }
@@ -101,7 +101,7 @@ namespace StudentManagement.Controllers
                 if (existingStudent == null)
                     return NotFound();
 
-                
+
                 existingStudent.FullName = student.FullName;
                 existingStudent.DepartmentId = student.DepartmentId;
                 existingStudent.Email = student.Email;
@@ -124,7 +124,6 @@ namespace StudentManagement.Controllers
 
         // Detail a Student
         [HttpGet]
-
         public async Task<IActionResult> Details(int id)
         {
             var student = await _context.Students.Include(s => s.Department).FirstOrDefaultAsync(s => s.StudentId == id);

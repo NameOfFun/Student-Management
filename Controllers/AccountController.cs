@@ -34,12 +34,9 @@ namespace StudentManagement.Controllers
                 return View();
             }
 
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.Username)
-            };
+            var claims = new List<Claim> { new Claim(ClaimTypes.Name, user.Username) };
 
-            foreach(var role in user.Roles)
+            foreach (var role in user.Roles)
             {
                 claims.Add(new Claim(ClaimTypes.Role, role.RoleName));
             }
@@ -57,6 +54,12 @@ namespace StudentManagement.Controllers
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login");
+        }
+
+        // Show Access Denied page
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }

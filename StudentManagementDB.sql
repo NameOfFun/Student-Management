@@ -163,9 +163,7 @@ VALUES
 ('student2','123456',2);
 
 insert into UserRole(user_id, role_id)
-values (1, 3)
+values (3, 1)
 
 Insert into UserAccount(username, password_hash)
 values ('hao', '02112003')
-
-select * from UserAccount
